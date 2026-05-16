@@ -39,6 +39,8 @@ startBtn.addEventListener("click", async () => {
 
   experience.classList.add("show-experience");
 
+  document.body.style.overflowY = "auto";
+
   // HIDE INTRO
 
   intro.classList.add("hide-intro");
