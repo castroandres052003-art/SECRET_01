@@ -12,12 +12,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Inter", sans-serif;
+body{
+
+  font-family: 'Inter', sans-serif;
+
   background: #050816;
+
   color: white;
+
   overflow-x: hidden;
-  cursor: default;
+  overflow-y: auto;
+
 }
 
 /* =========================
@@ -226,13 +231,13 @@ body {
 
 #experience{
 
-  opacity: 1;
+  opacity: 0;
 
   transition: 2s ease;
 
   position: relative;
 
-  z-index: 2;
+  z-index: 5;
 
 }
 
@@ -659,16 +664,6 @@ section {
   .glass-card h2 {
     font-size: 2rem;
   }
-
-body{
-  overflow-x: hidden;
-  overflow-y: auto;
-   }
-
-  .terminal-box {
-    padding: 35px 25px;
-  }
-}
 
 .hide-intro{
 
