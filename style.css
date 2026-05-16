@@ -660,7 +660,22 @@ section {
     font-size: 2rem;
   }
 
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+   }
+
   .terminal-box {
     padding: 35px 25px;
   }
+}
+
+.hide-intro{
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  pointer-events: none;
+
 }
