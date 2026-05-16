@@ -224,9 +224,16 @@ body {
    EXPERIENCE
 ========================= */
 
-#experience {
-  opacity: 0;
+#experience{
+
+  opacity: 1;
+
   transition: 2s ease;
+
+  position: relative;
+
+  z-index: 2;
+
 }
 
 .show-experience {
