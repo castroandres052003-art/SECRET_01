@@ -14,7 +14,25 @@ const music = document.getElementById("bg-music");
 startBtn.addEventListener("click", () => {
 
   // PLAY MUSIC
-  music.play();
+  music.volume = 0.7;
+
+const playPromise = music.play();
+
+if(playPromise !== undefined){
+
+  playPromise
+    .then(() => {
+
+      console.log("Music started");
+
+    })
+    .catch((error) => {
+
+      console.log("Playback blocked:", error);
+
+    });
+
+}
 
   // HIDE INTRO
   intro.style.opacity = "0";
